@@ -1,25 +1,26 @@
 form {
-    display: grid;
-    grid-template-columns: 150px 1fr;
-    gap: 10px;
-    text-align: left;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 10px;
+  text-align: left;
 }
 
 .radio-buttons {
-    display: flex;
+  display: flex;
 }
 
 .user-form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    border: 1px solid black;
-    border-radius: 15px;
-    padding: 25px;
-    box-shadow: 0 10px 20px rgb(0 0 0 / 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 0.2);
+  background-color: white;
 }
 
 input[type="submit"] {
-    width: 100px;
-    height: 30px;
+  width: 100px;
+  height: 30px;
 }
