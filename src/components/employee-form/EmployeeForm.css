@@ -1,26 +1,25 @@
 form {
   display: grid;
-  grid-template-columns: 150px 1fr;
+  grid-template-columns: 0.6fr 1fr;
   gap: 10px;
   text-align: left;
 }
 
-.radio-buttons {
-  display: flex;
-}
-
-.user-form {
+.employee-form {
   display: flex;
   flex-direction: column;
   gap: 20px;
   border: 1px solid black;
   border-radius: 15px;
-  padding: 25px;
+  padding: 10px 20px 10px 20px;
   box-shadow: 0 10px 20px rgb(0 0 0 / 0.2);
   background-color: white;
+  margin-top: 5px;
+  width: 35em;
 }
 
 input[type="submit"] {
   width: 100px;
   height: 30px;
+  font-size: 1em;
 }

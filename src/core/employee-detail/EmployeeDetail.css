@@ -1,0 +1,7 @@
+.employee-detail {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1.5em;
+}
