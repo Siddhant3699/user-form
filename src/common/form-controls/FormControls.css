@@ -1,0 +1,34 @@
+.field-label {
+  display: flex;
+  align-items: center;
+  height: 1.75rem;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="radio"],
+input[type="file"],
+select {
+  font-size: 1.1em;
+}
+
+input[type="date"] {
+  font-size: 1.5em;
+}
+
+.radio-buttons {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.radio-button {
+  display: flex;
+  column-gap: 5px;
+}
+
+.radio-button > label {
+  font-size: 1.1em;
+}
